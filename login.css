@@ -135,3 +135,21 @@ p{
 .formdiv button:hover{
     background: midnightblue;
     color: white;
+}
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    background: white;
+}
+.about h3{
+    font-weight: bold;
+    color: midnightblue;
+    padding-left: 30px ;
+    padding-top:20px ;
+}
+.about p{
+    font-weight: bold;
+    color: midnightblue;
+    padding-left: 30px ;
+    padding-top:20px ;
+}
