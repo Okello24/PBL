@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(pic/logocatelog.jpeg);
+    background-size: 100%;*/
+    /*background-color: linear-gradient(to right,#e7947f,#53bef0);*/
+    
+}
+div.header{
+    background: white;
+    width: 100%;
+    height: 80px;
+}
+.searchbar{
+    float: right;
+    background: white;
+    width:600px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+.searchbar form{
+    margin-top: 20px ;
+    display: flex;
+    background: white;
+    width:600px;
+    height: 50px;
+    border: 2px solid midnightblue;
+    border-radius: 10px;
+}
+.searchbar form #bar{
+    width: 480px;
+    height: 46px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: white;
+    letter-spacing: 1px;
+    font-size: 30x;
+    font-weight: bold;
+}
+.searchbar form #button{
+    width: 120px;
+    height: 48px;
+    background: midnightblue;
+    color: white;
+    padding: 10px 15px;
+    border-radius:8px ;
+    boreder:none ;
+    letter-spacing: 1px;
+}
+#navigation{
+    width: 100;
+    background: white;
+    box-shadow: 5px 5px 5px gray;
+}
+div.navigation{
+    margin-left: 450px;
+    align-cont: center;
+    background: white;
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    
+}
+ul{
+    background: white;
+  
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{ 
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+
+}
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+}
+ul li a:hover{
+    background: midnightblue;
+    color: white;
+}
+ul li:hover .dropdown{
+    display: block;
+}
+.formcontainer{
+    width: 100%;
+    height:600px;
+}
+.formdiv{
+    background:url(pic/logoshadow.jpeg);
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+    margin-left: 800px;
+    margin-top: 200px;
+    padding: 50px 20px 50px 20px;
+    border: 2px solid midnightblue;
+    border-radius: 20px;
+}
+p{
+    color: midnightblue;
+    margin-bottom:70px;
+}
+.form{
+    margin-bottom: 90px;
+
+}
+.formdiv label{
+    color: midnightblue;
+}
+.formdiv input{
+    width: 250px;
+    height: 30px;
+    color: midnightblue;
+    border: 2px solid midnightblue;
+    border-radius: 20px;
+    padding-left:10px ;
+}
+.formdiv button{
+    background:white;
+    width: 50px;
+    border: 2px solid midnightblue;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: midnightblue;
+}
+.formdiv button:hover{
+    background: midnightblue;
+    color: white;
+}
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    background: white;
+}
+#about{
+    font-weight: bold;
+    color: midnightblue;
+    padding-left: 30px ;
+    padding-top:20px;
+    text-align: justify;
+}
+#aboutp{
+    font-weight: bold;
+    color: midnightblue;
+    padding-left: 30px ;
+    padding-top:10px ;
+    padding-right: 20px;
+    text-align: justify;
+}
+#contact{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    color: midnightblue;
+}
+#contacts{
+    width: 50%;
+    padding-left: 30px;
+}
+#copyright{
+    width: 50%;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+#img1,#img2{
+
+    padding-left: 30px;
+   
+  
+}
