@@ -5,7 +5,7 @@
 }
 body{
     background: url(pic/logocatelog.jpeg);
-    background-size: cover;
+    background-size: 100%;
     
 }
 div.header{
@@ -54,6 +54,7 @@ div.header{
 #navigation{
     width: 100;
     background: white;
+    box-shadow: 5px 5px 5px black;
 }
 div.navigation{
     margin-left: 450px;
@@ -137,19 +138,43 @@ p{
     color: white;
 }
 .footer{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 100%;
     background: white;
 }
-.about h3{
+#about{
     font-weight: bold;
     color: midnightblue;
     padding-left: 30px ;
-    padding-top:20px ;
+    padding-top:20px;
+    text-align: justify;
 }
-.about p{
+#aboutp{
     font-weight: bold;
     color: midnightblue;
     padding-left: 30px ;
-    padding-top:20px ;
+    padding-top:10px ;
+    text-align: justify;
+}
+#contact{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    color: midnightblue;
+}
+#contacts{
+    width: 50%;
+    padding-left: 30px;
+}
+#copyright{
+    width: 50%;
+    padding-left: 30px;
+}
+
+#img1,#img2{
+
+    padding-left: 30px;
+   
+  
 }
