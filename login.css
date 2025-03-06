@@ -54,7 +54,7 @@ div.header{
 #navigation{
     width: 100;
     background: white;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px gray;
 }
 div.navigation{
     margin-left: 450px;
@@ -170,6 +170,7 @@ p{
 #copyright{
     width: 50%;
     padding-left: 30px;
+    font-weight: bold;
 }
 
 #img1,#img2{
